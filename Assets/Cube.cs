@@ -9,6 +9,8 @@ public class Cube : MonoBehaviour
     {
         Debug.Log("i am printing from debug");
         Debug.Log("i am saad");
+        Debug.LogWarning("I am a warning ignore me anyway ");
+        Debug.LogError("I am error, I can make your life hell");
     }
 
     // Update is called once per frame
