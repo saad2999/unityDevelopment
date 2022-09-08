@@ -45,6 +45,17 @@ public class Cube : MonoBehaviour
 
 
         }
+        if(transform.position.x>9.5f)
+        {
+            Debug.LogWarning("cube is outside the right boundry");
+        }
+        else if (transform.position.x < -9.5f)
+        {
+            Debug.LogWarning("cube is outside the left boundry");
+        }else if (transform.position.y > 5.5f)
+        {
+            Debug.LogWarning("cube is outside the up boundry");
+        }
 
     }
 }
