@@ -19,13 +19,14 @@ public class Cube : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.UpArrow))
         {
             Debug.Log("up key is pressed");
-            transform.position += new Vector3(0, 1, 0);
+            transform.position += new Vector3(1, 1, 0);
             
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             Debug.Log("down key is pressed");
-            transform.position+= new Vector3(0, -1, 0);
+            transform.position+= new Vector3(-1, -1, 0);
+            
 
         }
 
