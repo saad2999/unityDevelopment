@@ -20,6 +20,11 @@ public class Cube : MonoBehaviour
         OutofboundPriting();
 
     }
+    public string PrintingfromoutSide(int val)
+    {
+        string myvar = "the value is " + val;
+        return myvar;
+    }
 
     private void OutofboundPriting()
     {
