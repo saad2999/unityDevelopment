@@ -8,15 +8,15 @@ public class platform : MonoBehaviour
     int ValuetoSend = 12;
     void Start()
     {
-       string valuefromFunction=FindObjectOfType<Cube>().PrintingfromoutSide(ValuetoSend);
+        string valuefromFunction = FindObjectOfType<Cube>().PrintingfromoutSide(ValuetoSend);
         Debug.Log(valuefromFunction);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 }

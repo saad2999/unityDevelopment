@@ -11,7 +11,7 @@ public class Cube : MonoBehaviour
         //PrintToOurConsole();
     }
 
-    
+
 
     // Update is called once per frame
     void Update()
